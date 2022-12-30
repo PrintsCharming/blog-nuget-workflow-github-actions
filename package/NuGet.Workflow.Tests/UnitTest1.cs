@@ -9,7 +9,7 @@ namespace NuGet.Workflow.Tests
       {
          var class1 = new Class1();
 
-         Assert.That(class1.Value, Is.EqualTo("Foo"));
+         Assert.That(class1.Value, Is.EqualTo("FooBar"));
       }
    }
 }
